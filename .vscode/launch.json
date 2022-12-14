@@ -2,11 +2,33 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AppApplication",
+            "request": "launch",
+            "mainClass": "com.revature.app.AppApplication"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemoApplication",
+            "request": "launch",
+            "mainClass": "com.revature.demo.DemoApplication"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-DemoApplication<demo>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "com.revature.demo.DemoApplication",
             "projectName": "demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AppApplication<app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.revature.app.AppApplication",
+            "projectName": "app",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
